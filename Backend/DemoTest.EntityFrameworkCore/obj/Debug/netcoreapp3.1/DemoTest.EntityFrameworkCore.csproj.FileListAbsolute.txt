@@ -1,0 +1,12 @@
+E:\sumeet thinkbridge\ShopBridge_Angular-main\ShopBridge_Angular-main\Backend\DemoTest\DemoTest.EntityFrameworkCore\bin\Debug\netcoreapp3.1\DemoTest.EntityFrameworkCore.deps.json
+E:\sumeet thinkbridge\ShopBridge_Angular-main\ShopBridge_Angular-main\Backend\DemoTest\DemoTest.EntityFrameworkCore\bin\Debug\netcoreapp3.1\DemoTest.EntityFrameworkCore.runtimeconfig.json
+E:\sumeet thinkbridge\ShopBridge_Angular-main\ShopBridge_Angular-main\Backend\DemoTest\DemoTest.EntityFrameworkCore\bin\Debug\netcoreapp3.1\DemoTest.EntityFrameworkCore.runtimeconfig.dev.json
+E:\sumeet thinkbridge\ShopBridge_Angular-main\ShopBridge_Angular-main\Backend\DemoTest\DemoTest.EntityFrameworkCore\bin\Debug\netcoreapp3.1\DemoTest.EntityFrameworkCore.dll
+E:\sumeet thinkbridge\ShopBridge_Angular-main\ShopBridge_Angular-main\Backend\DemoTest\DemoTest.EntityFrameworkCore\bin\Debug\netcoreapp3.1\DemoTest.EntityFrameworkCore.pdb
+E:\sumeet thinkbridge\ShopBridge_Angular-main\ShopBridge_Angular-main\Backend\DemoTest\DemoTest.EntityFrameworkCore\obj\Debug\netcoreapp3.1\DemoTest.EntityFrameworkCore.csprojAssemblyReference.cache
+E:\sumeet thinkbridge\ShopBridge_Angular-main\ShopBridge_Angular-main\Backend\DemoTest\DemoTest.EntityFrameworkCore\obj\Debug\netcoreapp3.1\DemoTest.EntityFrameworkCore.AssemblyInfoInputs.cache
+E:\sumeet thinkbridge\ShopBridge_Angular-main\ShopBridge_Angular-main\Backend\DemoTest\DemoTest.EntityFrameworkCore\obj\Debug\netcoreapp3.1\DemoTest.EntityFrameworkCore.AssemblyInfo.cs
+E:\sumeet thinkbridge\ShopBridge_Angular-main\ShopBridge_Angular-main\Backend\DemoTest\DemoTest.EntityFrameworkCore\obj\Debug\netcoreapp3.1\DemoTest.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+E:\sumeet thinkbridge\ShopBridge_Angular-main\ShopBridge_Angular-main\Backend\DemoTest\DemoTest.EntityFrameworkCore\obj\Debug\netcoreapp3.1\DemoTest.EntityFrameworkCore.dll
+E:\sumeet thinkbridge\ShopBridge_Angular-main\ShopBridge_Angular-main\Backend\DemoTest\DemoTest.EntityFrameworkCore\obj\Debug\netcoreapp3.1\DemoTest.EntityFrameworkCore.pdb
+E:\sumeet thinkbridge\ShopBridge_Angular-main\ShopBridge_Angular-main\Backend\DemoTest\DemoTest.EntityFrameworkCore\obj\Debug\netcoreapp3.1\DemoTest.EntityFrameworkCore.genruntimeconfig.cache

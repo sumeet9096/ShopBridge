@@ -1,0 +1,38 @@
+<mat-card>
+  <mat-card-content>
+    <mat-card-title *ngIf="id">Product details</mat-card-title>
+    <mat-card-title *ngIf="!id">Add product</mat-card-title>
+    <form [formGroup]="productForm" autocomplete="off" novalidate (ngSubmit)="submit(productForm.value)" fxLayout="column wrap" fxLayoutGap="10px">
+      <div [ngClass]="{'disablecontrol': id }">
+        <mat-form-field>
+          <input matInput type="text" placeholder="Product name" formControlName="name" id="name">
+          <mat-error *ngIf="hasError('name', 'required')">Product Name is required.</mat-error>
+          <mat-error *ngIf="hasError('name', 'maxlength')">You have more than 20 characters.</mat-error>
+        </mat-form-field>
+        <mat-form-field>
+          <textarea matInput type="text" placeholder="Product description" formControlName="descriptions" id="descriptions"></textarea>
+          <mat-error *ngIf="hasError('descriptions','required')">Description is required.</mat-error>
+          <mat-error *ngIf="hasError('name', 'maxlength')">You have more than 270 characters.</mat-error>
+        </mat-form-field>
+        <mat-form-field>
+          <input matInput type="number" placeholder="Product price" formControlName="price" id="price">
+          <mat-error *ngIf="hasError('price','required')">Price is required.</mat-error>
+          <mat-error *ngIf="hasError('price','pattern')">Numbers only.</mat-error>
+        </mat-form-field>
+        <div class="col-md-4" *ngIf="!id">
+          <div class="form-group">
+            <label for="address">Upload photo</label><br />
+            <input (change)="uploadImage($event)" type="file" ng2FileSelect [uploader]="uploader" />
+          </div>
+        </div>
+        <div class="col-md-4" *ngIf="image">
+          <img src="data:image/png;base64,{{image}}" style="width:100px" />
+        </div>
+      </div>
+      <mat-action-row align="right">
+        <button mat-raised-button color="warn" type="button" (click)="back()">Back to main screen</button>&nbsp;
+        <button mat-raised-button color="primary" *ngIf="!id" [disabled]="!productForm.valid" type="submit">Submit</button>
+      </mat-action-row>
+    </form>
+  </mat-card-content>
+</mat-card>

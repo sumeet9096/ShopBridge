@@ -1,0 +1,33 @@
+<div fxLayout="row wrap">
+  <div fxFlex.gt-lg="100" fxFlex.gt-md="100" fxFlex.gt-xs="100" fxFlex="100" class="text-right">
+    <button mat-raised-button color="primary" (click)="add();">Add product</button>&nbsp;
+    <button mat-raised-button color="primary" [disabled]="!proChecked" (click)="view();">View</button>&nbsp;
+    <button mat-raised-button color="warn" type="button" [disabled]="!proChecked" (click)="delete()">Delete</button>
+  </div>
+  <div fxFlex.gt-lg="25" fxFlex.gt-md="25" fxFlex.gt-xs="100" fxFlex="100" *ngFor="let item of itemData; let i = index">
+    <mat-card>
+      <!--(click)="view(item)"-->
+      <mat-card-content>
+        <div class="d-flex flex-wrap">
+          <div class="col-md-2">
+            <!--<mat-radio-group [(ngModel)]="favoriteSeason" >-->
+            <mat-radio-button [color]="primary"
+                              (change)="selectItem($event,item)">
+            </mat-radio-button>
+            <!--</mat-radio-group>-->
+          </div>
+          <div class="col-md-5">
+            <img *ngIf="!item.image" class="prod-logo" src="assets/images/image-placeholder.jpg" alt="product" />
+            <img *ngIf="item.image" class="prod-logo" src="data:image/png;base64,{{item.image}}" alt="product" />
+          </div>
+          <div class="col-md-5">
+            <div class="p-l-20">
+              <mat-card-title>$ {{item.price}}</mat-card-title>
+              <mat-card-subtitle>{{item.name}}</mat-card-subtitle>
+            </div>
+          </div>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
