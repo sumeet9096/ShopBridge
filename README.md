@@ -4,8 +4,11 @@ This project was generated with Angular CLI version 10.0.1.
 
 ### Prerequisites:
 Node.js
+
 Angular cli
+
 .Net core 2
+
 Visual studio
 
 ### How to run?
