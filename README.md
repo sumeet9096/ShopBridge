@@ -27,8 +27,10 @@ it willl create the database
 ### Front End:
 1. open command prompt and and goto to project path
 e.g.  cd "project path"
+
 2.then run command => npm i
 it will install all the packages
+
 3.then run the project using command => npm start
 4.open the project on browser using path http://localhost:4200
 
