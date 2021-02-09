@@ -34,13 +34,13 @@ it will install all the packages
 3.then run the project using command => npm start
 4.open the project on browser using path http://localhost:4200
 
-###ScreenShots
+### ScreenShots
 
-###Welcome Screeen
+### Welcome Screeen
 ![HomePage](https://user-images.githubusercontent.com/46746296/107316815-7211d080-6abf-11eb-99f7-373ea59242f9.png)
 
-###Product Dashboard
+### Product Dashboard
 ![ProductDashboard](https://user-images.githubusercontent.com/46746296/107316973-c6b54b80-6abf-11eb-88f4-40f6def22324.png)
 
-###Product details
+### Product details
 ![Product Details](https://user-images.githubusercontent.com/46746296/107317089-fd8b6180-6abf-11eb-810c-89a0482f6a7a.png)
